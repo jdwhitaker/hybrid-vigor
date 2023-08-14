@@ -11,9 +11,9 @@ def query(number):
     app.logger.debug(request.path)
     con = sqlite3.connect("web.db")
     cur = con.cursor()
-    res = cur.execute(f"SELECT users FROM users WHERE favorite_number={number}")
-    users = res.fetchall()
-    users = ','.join(users)
-    return users
+    res = cur.execute(f"SELECT name FROM users WHERE favorite_number={number}")
+    names = res.fetchall()
+    names = ','.join([i[0] for i in names])
+    return names
 
 app.run()
