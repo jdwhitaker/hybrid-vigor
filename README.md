@@ -1,1 +1,1 @@
-# masters
+# Hybrid Vigor: Improving Detection by Combining ML with Extracted IOCs
