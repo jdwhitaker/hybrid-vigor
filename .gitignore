@@ -1,0 +1,6 @@
+presentation/output/*.log
+presentation/output/*.aux
+presentation/output/*.nav
+presentation/output/*.out
+presentation/output/*.snm
+presentation/output/*.toc
